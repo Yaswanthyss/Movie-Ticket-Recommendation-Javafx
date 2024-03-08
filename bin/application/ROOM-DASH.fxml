@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="872.0" prefWidth="1543.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.RoomController">
+   <children>
+      <ImageView fitHeight="882.0" fitWidth="1546.0" layoutY="-10.0" pickOnBounds="true">
+         <image>
+            <Image url="@14832158_5517059.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="721.0" style="-fx-background-color: transparent;">
+         <children>
+            <Label layoutX="227.0" layoutY="91.0" prefHeight="94.0" prefWidth="443.0" text="ROOMS AVAILABLE" textFill="#f2eded">
+               <font>
+                  <Font name="System Bold" size="41.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="25.0" arcWidth="25.0" fill="#c5b358" focusTraversable="true" height="176.0" layoutX="102.6" layoutY="319.2" stroke="BLACK" strokeLineJoin="BEVEL" strokeType="INSIDE" width="153.0" AnchorPane.bottomAnchor="123.19999999999999" AnchorPane.leftAnchor="102.6" AnchorPane.rightAnchor="480.4" AnchorPane.topAnchor="319.2" />
+            <Rectangle arcHeight="25.0" arcWidth="25.0" fill="#c5b358" height="176.0" layoutX="331.0" layoutY="321.0" stroke="BLACK" strokeType="INSIDE" width="153.0" />
+            <Rectangle arcHeight="25.0" arcWidth="25.0" fill="#c4b258" height="176.0" layoutX="563.0" layoutY="318.0" stroke="BLACK" strokeType="INSIDE" width="153.0" />
+            <Label layoutX="112.0" layoutY="331.0" prefHeight="22.0" prefWidth="142.0" text="STANDARD ROOM">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font></Label>
+            <Label layoutX="353.0" layoutY="332.0" prefHeight="22.0" prefWidth="109.0" text="DELUXE ROOM">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font></Label>
+            <Label layoutX="591.0" layoutY="329.0" prefHeight="18.0" prefWidth="142.0" text="SUITE ROOM">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font></Label>
+            <Label layoutX="155.0" layoutY="370.0" prefHeight="18.0" prefWidth="48.0" text="QUEEN">
+               <font>
+                  <Font name="Bodoni MT Black" size="12.0" />
+               </font></Label>
+            <Label layoutX="134.0" layoutY="344.0" prefHeight="18.0" prefWidth="48.0" />
+            <Label layoutX="169.0" layoutY="399.0" prefHeight="18.0" prefWidth="22.0" text="4" />
+            <Label layoutX="401.0" layoutY="394.0" prefHeight="18.0" prefWidth="22.0" text="4" />
+            <Label layoutX="636.0" layoutY="396.0" prefHeight="0.0" prefWidth="22.0" text="4" />
+            <ImageView fitHeight="42.0" fitWidth="40.0" layoutX="321.0" layoutY="161.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Pictures/PPL-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="42.0" fitWidth="40.0" layoutX="526.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Pictures/PPL-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="42.0" fitWidth="40.0" layoutX="98.0" layoutY="363.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Pictures/PPL-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="42.0" fitWidth="40.0" layoutX="533.0" layoutY="363.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Pictures/PPL-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="42.0" fitWidth="40.0" layoutX="321.0" layoutY="362.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Pictures/PPL-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="42.0" fitWidth="40.0" layoutX="111.0" layoutY="203.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Downloads/bed-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="42.0" fitWidth="40.0" layoutX="533.0" layoutY="421.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Pictures/BED-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="42.0" fitWidth="40.0" layoutX="321.0" layoutY="421.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Pictures/BED-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="42.0" fitWidth="40.0" layoutX="98.0" layoutY="421.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Pictures/BED-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="42.0" fitWidth="40.0" layoutX="526.0" layoutY="212.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Pictures/BED-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="42.0" fitWidth="40.0" layoutX="321.0" layoutY="208.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Pictures/BED-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="386.0" layoutY="370.0" prefHeight="18.0" prefWidth="48.0" text="KING">
+               <font>
+                  <Font name="Bodoni MT Black Italic" size="12.0" />
+               </font></Label>
+            <Label layoutX="610.0" layoutY="368.0" prefHeight="18.0" prefWidth="61.0" text="DOUBLE">
+               <font>
+                  <Font name="Bodoni MT Black" size="12.0" />
+               </font></Label>
+            <Button layoutX="135.0" layoutY="441.0" mnemonicParsing="false" onMouseClicked="#redirectTobilling" style="-fx-background-color: black;" text="Book Now!!" textFill="#c5b358">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font></Button>
+            <Button layoutX="364.0" layoutY="444.0" mnemonicParsing="false" onMouseClicked="#redirectTobilling" style="-fx-background-color: black;" text="Book Now!!" textFill="#c5b358">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font></Button>
+            <Button fx:id="btn" layoutX="596.0" layoutY="440.0" mnemonicParsing="false" onMouseClicked="#redirectTobilling" style="-fx-background-color: black;" text="Book Now!!" textFill="#c5b358">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font></Button>
+            <ImageView fitHeight="42.0" fitWidth="40.0" layoutX="329.0" layoutY="162.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Downloads/ppl-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="42.0" fitWidth="40.0" layoutX="539.0" layoutY="162.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Downloads/ppl-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="42.0" fitWidth="40.0" layoutX="539.0" layoutY="362.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Downloads/ppl-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="42.0" fitWidth="40.0" layoutX="109.0" layoutY="362.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Downloads/ppl-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="42.0" fitWidth="40.0" layoutX="329.0" layoutY="201.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Downloads/bed-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="42.0" fitWidth="40.0" layoutX="539.0" layoutY="202.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Downloads/bed-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="42.0" fitWidth="40.0" layoutX="539.0" layoutY="410.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Downloads/bed-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="42.0" fitWidth="40.0" layoutX="329.0" layoutY="410.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Downloads/bed-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="42.0" fitWidth="40.0" layoutX="109.0" layoutY="410.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Downloads/bed-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="32.0" layoutY="120.0" mnemonicParsing="false" onMouseClicked="#logout" prefHeight="38.0" prefWidth="90.0" style="-fx-background-color: #3ddcdc;" text="Login">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font></Button>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="42.0" fitWidth="40.0" layoutX="115.0" layoutY="164.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/ppl-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="1437.0" layoutY="1.0" prefHeight="42.0" prefWidth="129.0" text="WELCOME!  😇" textFill="#ccb12b">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="25.0" arcWidth="25.0" fill="#c4b258" focusTraversable="true" height="176.0" layoutX="791.0" layoutY="317.0" stroke="BLACK" strokeLineJoin="BEVEL" strokeType="INSIDE" width="153.0" />
+      <Button layoutX="827.0" layoutY="438.0" mnemonicParsing="false" onMouseClicked="#redirectTobilling" style="-fx-background-color: black;" text="Book Now!!" textFill="#c5b358">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Label layoutX="838.0" layoutY="368.0" prefHeight="18.0" prefWidth="62.0" text="DOUBLE">
+         <font>
+            <Font name="Bodoni MT Black" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="815.0" layoutY="329.0" prefHeight="22.0" prefWidth="110.0" text="FAMILY ROOM">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="25.0" arcWidth="25.0" fill="#c4b258" focusTraversable="true" height="176.0" layoutX="1025.0" layoutY="317.0" stroke="BLACK" strokeLineJoin="BEVEL" strokeType="INSIDE" width="153.0" />
+      <Button layoutX="1058.0" layoutY="438.0" mnemonicParsing="false" onMouseClicked="#redirectTobilling" style="-fx-background-color: black;" text="Book Now!!" textFill="#c5b358">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Label layoutX="1038.0" layoutY="332.0" prefHeight="18.0" prefWidth="130.0" text="EXECUTIVE ROOM">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="1082.0" layoutY="371.0" prefHeight="18.0" prefWidth="48.0" text="TWIN">
+         <font>
+            <Font name="Bodoni MT Black" size="12.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="25.0" arcWidth="25.0" fill="#c4b258" focusTraversable="true" height="176.0" layoutX="1261.0" layoutY="313.0" stroke="BLACK" strokeLineJoin="BEVEL" strokeType="INSIDE" width="153.0" />
+      <Button layoutX="1293.0" layoutY="435.0" mnemonicParsing="false" onMouseClicked="#redirectTobilling" style="-fx-background-color: black;" text="Book Now!!" textFill="#c5b358">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Label layoutX="1315.0" layoutY="369.0" prefHeight="18.0" prefWidth="48.0" text="QUEEN">
+         <font>
+            <Font name="Bodoni MT Black" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="1266.0" layoutY="327.0" prefHeight="22.0" prefWidth="153.0" text="ACCESSEBILE ROOM">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="1337.0" layoutY="397.0" prefHeight="18.0" prefWidth="22.0" text="4" />
+      <Label layoutX="864.0" layoutY="392.0" prefHeight="18.0" prefWidth="22.0" text="4" />
+      <Label layoutX="1097.0" layoutY="400.0" prefHeight="18.0" prefWidth="22.0" text="4" />
+      <Button layoutX="1341.0" layoutY="722.0" mnemonicParsing="false" onMouseClicked="#back" prefHeight="34.0" prefWidth="78.0" style="-fx-background-color: #3ddcdc;" text="Back">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font></Button>
+      <Button layoutX="1108.0" layoutY="2.0" mnemonicParsing="false" onMouseClicked="#delete" prefHeight="30.0" prefWidth="131.0" style="-fx-background-color: #3ddcdc;" text="Delete Details">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Button layoutX="1282.0" layoutY="4.0" mnemonicParsing="false" onMouseClicked="#update" prefHeight="31.0" prefWidth="133.0" style="-fx-background-color: #3ddcdc;" text="Update Details">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="872.0" prefWidth="1543.0" style="-fx-background-color: #8ecae6;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.deleteController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#052a9c" height="359.0" layoutY="-3.0" stroke="BLACK" strokeType="INSIDE" width="76.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#052a9c" height="359.0" layoutX="443.0" layoutY="-3.0" stroke="BLACK" strokeType="INSIDE" width="76.0" />
+      <Label layoutX="197.0" layoutY="43.0" prefHeight="35.0" prefWidth="205.0" text="DELETE DETAILS" textFill="#052a9c">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="136.0" layoutY="178.0" prefHeight="18.0" prefWidth="99.0" text="Billing Id" />
+      <TextField fx:id="billingId" layoutX="236.0" layoutY="175.0" />
+      <Button layoutX="236.0" layoutY="257.0" mnemonicParsing="false" onMouseClicked="#delete" text="DELETE" />
+      <ImageView fitHeight="91.0" fitWidth="99.0" layoutX="106.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Pictures/VOYAGERS-removebg-preview.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

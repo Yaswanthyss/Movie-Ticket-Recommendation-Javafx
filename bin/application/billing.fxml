@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="872.0" prefWidth="1543.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.billingController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c9cdd1" height="370.0" layoutX="199.0" layoutY="254.0" opacity="0.66" stroke="BLACK" strokeType="INSIDE" width="288.0" />
+      <AnchorPane layoutX="432.0" layoutY="153.0" prefHeight="538.0" prefWidth="554.0" style="-fx-background-color: transparent;">
+         <children>
+            <Text fx:id="answer" layoutX="99.0" layoutY="331.0" strikethrough="true" strokeType="OUTSIDE" strokeWidth="0.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c9cdd1" height="370.0" layoutX="186.0" layoutY="100.0" opacity="0.66" stroke="BLACK" strokeType="INSIDE" width="288.0" />
+            <Label layoutX="275.0" layoutY="235.0" prefHeight="51.0" prefWidth="123.0" text="Check In" textFill="#052a9c">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </Label>
+            <TextField fx:id="checkin" layoutX="218.0" layoutY="303.0" prefHeight="35.0" prefWidth="216.0" />
+         </children>
+      </AnchorPane>
+      <TextField fx:id="noofppl" layoutX="240.0" layoutY="450.0" prefHeight="35.0" prefWidth="216.0" />
+      <Label layoutX="236.0" layoutY="387.0" prefHeight="36.0" prefWidth="231.0" text="Number of People:" textFill="#052a9c">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Button fx:id="btn" layoutX="644.0" layoutY="712.0" mnemonicParsing="false" onMouseClicked="#storeInDb" prefHeight="54.0" prefWidth="259.0" style="-fx-background-color: #F1C40F;" text="Generate Invoice">
+         <font>
+            <Font name="Berlin Sans FB Bold" size="20.0" />
+         </font>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c9cdd1" height="370.0" layoutX="1045.0" layoutY="251.0" opacity="0.66" stroke="BLACK" strokeType="INSIDE" width="288.0" />
+      <TextField fx:id="checkout" layoutX="1081.0" layoutY="471.0" prefHeight="35.0" prefWidth="216.0" />
+      <Label layoutX="1133.0" layoutY="401.0" prefHeight="36.0" prefWidth="144.0" text="Check out" textFill="#052a9c">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="305.0" fitWidth="2037.0" layoutX="-492.0" layoutY="-2.0" pickOnBounds="true">
+         <image>
+            <Image url="@5192479.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="499.0" layoutY="149.0" prefHeight="58.0" prefWidth="645.0" text="BILLING AND CONFIRMATION" textFill="#e3e5ec">
+         <font>
+            <Font name="Berlin Sans FB Bold" size="42.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
